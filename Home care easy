@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Care Easy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f8fc;
+      color: #333;
+    }
+    header {
+      background-color: #295faa;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      text-decoration: none;
+      color: #295faa;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 40px;
+      background-color: #e6eef7;
+      text-align: center;
+    }
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      flex: 1 1 250px;
+    }
+    footer {
+      background-color: #295faa;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Home Care Easy</h1>
+    <p>Trusted Help for Families & Aging-in-Place Homes</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="hero">
+    <h1>Need Help at Home? We Make It Easy.</h1>
+    <p>Electricians, Plumbers, and Handymen – Fast, Trusted, Local.</p>
+  </div>  <div class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Electrician</h3>
+        <p>From outlets to lighting, we connect you to licensed electricians fast.</p>
+      </div>
+      <div class="card">
+        <h3>Plumber</h3>
+        <p>Leaky faucets or clogged drains? We’ve got your back.</p>
+      </div>
+      <div class="card">
+        <h3>Handyman</h3>
+        <p>Minor repairs, fixtures, and home updates made simple.</p>
+      </div>
+    </div>
+  </div>  <div class="section" id="about">
+    <h2>About Home Care Easy</h2>
+    <p>We help older adults stay independent longer and support busy families when the unexpected happens. Our trusted network of local professionals is ready to help when you need it most.</p>
+  </div>  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Need immediate help? Email us at <a href="mailto:info@homecareeasy.com">info@homecareeasy.com</a> or call (123) 456-7890</p>
+  </div>  <footer>
+    <p>&copy; 2025 Home Care Easy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
